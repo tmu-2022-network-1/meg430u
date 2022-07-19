@@ -1,18 +1,9 @@
-window.onscroll = function(){  
-  var scrollTop = window.pageYOffset ;  //スクロール量を代入する
-  
-  if (scrollTop == 0 ) {   //最上部に戻ってきた時
-  $(".js-image").css('opacity', '1');
-    $('.js-image').css('transition', '0.5s')
-  
-    $(".git-image").css('opacity', '0');
-    $('.git-image').css('transition', '0.5s')
+$(window).on('scroll', function () {
+  var doch = $(document).innerHeight(); //ページ全体の高さ
+  var winh = $(window).innerHeight(); //ウィンドウの高さ
+  var bottom = doch - winh; //ページ全体の高さ - ウィンドウの高さ = ページの最下部位置
+  if (bottom * 0.8 <= $(window).scrollTop()) {
+  //一番下までスクロールした時に実行
+  console.log("最底辺！");
   }
-  if (scrollTop > 10 ) {   //１０pxスクロールした時
-    $('.js-image').css('opacity', '0');
-    $('.js-image').css('transition', '0.5s')
-  
-    $('.git-image').css('opacity', '1');
-    $('.git-image').css('transition', '0.5s')
-  }
-}
+  });
