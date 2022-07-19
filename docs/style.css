@@ -1,0 +1,19 @@
+.sky {
+    animation: cloud 25s linear infinite;
+    background: url(../images/cloud.png),
+      linear-gradient(#bbe4fa, hsl(171, 40%, 91%));
+    background-position-x: 0%;
+    background-position-y: 35%;
+    background-repeat: repeat-x;
+    background-size: 800px auto;
+    height: 560px;
+  }
+  /* 2. keyframeを使って、雲が流れるように。 */
+  @keyframes cloud {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: 800px;
+    }
+  }
