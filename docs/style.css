@@ -1,4 +1,17 @@
-.flexbox{
-    display: flex;
-    flex-direction: column;
+
+
+  .js-image {
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: 1;
   }
+  .git-image {
+    z-index: 0;
+    position: absolute;
+      top: 0px;
+      left: 0px;
+    opacity: 0;
+  }
+  
+  
+  
