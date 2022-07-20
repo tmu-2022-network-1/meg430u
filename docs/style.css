@@ -1,3 +1,17 @@
+.box{
+  position: relative;
+}
+.box p{
+  position: absolute;
+  top: 0;
+    left: 0;
+}
+
+p{
+  color:aliceblue;
+}
+
+
 .js-image {
   margin-left: 0px;
   margin-top: 0px;
@@ -11,4 +25,4 @@
   opacity: 0;
 }
 
- 
+
