@@ -14,7 +14,7 @@ window.onscroll = function(){
     
   }
   
-  if (scrollTop > 2300 ) {   //１０pxスクロールした時
+  if (scrollTop > 1800 ) {   
     $(".off-image").css('opacity', '0')
     $('.off-image').css('transition', '3s')
     $(".box p").css('opacity', '0')

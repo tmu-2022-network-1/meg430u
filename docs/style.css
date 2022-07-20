@@ -3,15 +3,23 @@
 }
 .box p{
   position: absolute;
-  top: 200px;
-  left:38%;
-  color:aliceblue;
+  top: 10%;
+  left:50%;
+  color:aliceblue;left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .box p2{
   position: absolute;
-  top: 200px;
-  left:38%;
+  display: flex;
+  text-align: center;
+  top: 10%;
+  left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   color:aliceblue;
   opacity: 0;
 }
