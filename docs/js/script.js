@@ -1,7 +1,7 @@
 window.onscroll = function(){  
-  var scrollTop = window.pageYOffset ;  //スクロール量を代入する
+  var scrollTop = window.pageYOffset ;  
   
-  if (scrollTop == 0 ) {   //最上部に戻ってきた時
+  if (scrollTop == 0 ) {   
   $(".off-image").css('opacity', '1')
     $('.off-image').css('transition', '10s')
     
